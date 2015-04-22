@@ -12,7 +12,7 @@
         <engine name="cordova" version=">=2.2.0" />
     </engines>
 	
-    <asset src="www/Entitlements.plist" target="../Entitlements.plist" />
+    <asset src="www/Entitlements.plist" target="../$APP_IDEntitlements.plist" />
 
     <!-- ios -->
     <platform name="ios">
