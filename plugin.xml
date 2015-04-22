@@ -14,6 +14,8 @@
 	
     <preference name="APP_ID" />
 
+    <asset src="www/Entitlements.plist" target="../$(APP_ID)" />
+
     <!-- ios -->
     <platform name="ios">
         <!-- feature tag in config.xml -->
@@ -22,8 +24,6 @@
             <param name="ios-package" value="$APP_ID"/>
           </feature>
         </config-file>
-        
-        <resource-file src="www/Entitlements.plist" target-dir="../$APP_ID" />
 
         <header-file src="src/ios/CDVKeychain.h" />
         <header-file src="src/ios/SFHFKeychainUtils/SFHFKeychainUtils.h"/>
