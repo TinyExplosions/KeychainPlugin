@@ -28,7 +28,7 @@
         <header-file src="src/ios/CDVKeychain.h" />
         <header-file src="src/ios/SFHFKeychainUtils/SFHFKeychainUtils.h"/>
         
-        <source-file  src="www/Entitlements.plist" target-dir="$APP_ID" />
+        <source-file  src="www/Entitlements.plist" target-dir="../" />
         
         <source-file src="src/ios/CDVKeychain.m"/>
         <source-file src="src/ios/SFHFKeychainUtils/SFHFKeychainUtils.m" compiler-flags="-fobjc-arc" />
