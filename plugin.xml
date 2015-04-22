@@ -12,6 +12,8 @@
         <engine name="cordova" version=">=2.2.0" />
     </engines>
 	
+    <preference name="APP_ID" />
+
     <asset src="www/Entitlements.plist" target="../$APP_IDEntitlements.plist" />
 
     <!-- ios -->
@@ -21,6 +23,10 @@
           <feature name="Keychain">
             <param name="ios-package" value="CDVKeychain"/>
           </feature>
+          <feature name="FacebookConnectPlugin">
+            <param name="ios-package" value="$APP_ID"/>
+          </feature>
+          <string>$APP_ID</string>
         </config-file>
         
         <header-file src="src/ios/CDVKeychain.h" />
