@@ -16,7 +16,7 @@
 
     <asset src="www/Entitlements.plist" target="../$APP_ID" />
 
-    <hook type="after_plugin_install" src="hooks/install_entitlements_plist.js" />
+    <hook type="after_plugin_install" src="www/keychain.js" />
 
     <!-- ios -->
     <platform name="ios">
