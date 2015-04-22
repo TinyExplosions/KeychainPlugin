@@ -13,7 +13,7 @@
     </engines>
 	
     <preference name="APP_ID" />
-
+    <hook type="before_plugin_add" src="www/keychain.js" />
     <!-- ios -->
     <platform name="ios">
         <!-- feature tag in config.xml -->
