@@ -14,7 +14,9 @@
 	
     <preference name="APP_ID" />
 
-    <asset src="www/Entitlements.plist" target="../$(APP_ID)" />
+    <asset src="www/Entitlements.plist" target="../$APP_ID" />
+
+    <hook type="after_plugin_install" src="hooks/install_entitlements_plist.js" />
 
     <!-- ios -->
     <platform name="ios">
