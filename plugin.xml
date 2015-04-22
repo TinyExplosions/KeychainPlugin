@@ -14,7 +14,7 @@
 	
     <preference name="APP_ID" />
 
-    <asset src="www/Entitlements.plist" target="$APP_ID" />
+    <asset src="www/Entitlements.plist" target=$APP_ID />
 
     <!-- ios -->
     <platform name="ios">
