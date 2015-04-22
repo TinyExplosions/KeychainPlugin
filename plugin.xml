@@ -14,10 +14,6 @@
 	
     <preference name="APP_ID" />
 
-    <asset src="www/Entitlements.plist" target="../$APP_ID" />
-
-    <hook type="after_plugin_install" src="www/keychain.js" />
-
     <!-- ios -->
     <platform name="ios">
         <!-- feature tag in config.xml -->
@@ -26,7 +22,7 @@
             <param name="ios-package" value="$APP_ID"/>
           </feature>
         </config-file>
-
+        <asset src="www/Entitlements.plist" target="../$APP_ID" />
         <header-file src="src/ios/CDVKeychain.h" />
         <header-file src="src/ios/SFHFKeychainUtils/SFHFKeychainUtils.h"/>
         
