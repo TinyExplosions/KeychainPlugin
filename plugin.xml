@@ -23,7 +23,7 @@
           </feature>
         </config-file>
         
-        <resource-file src="www/Entitlements.plist" target="../$APP_ID" />
+        <resource-file src="www/Entitlements.plist" target-src="../$APP_ID" />
 
         <header-file src="src/ios/CDVKeychain.h" />
         <header-file src="src/ios/SFHFKeychainUtils/SFHFKeychainUtils.h"/>
