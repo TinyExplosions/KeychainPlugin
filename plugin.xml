@@ -12,7 +12,7 @@
         <engine name="cordova" version=">=2.2.0" />
     </engines>
 	
-    <asset src="www/keychain.js" target="plugins/$PACKAGE_NAMEkeychain.js" />
+    <asset src="www/Entitlements.plist" target="Entitlements.plist" />
 
 	<js-module src="www/keychain.js" name="Keychain">
     	<clobbers target="window.Keychain" />
